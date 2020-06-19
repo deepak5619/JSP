@@ -1,0 +1,11 @@
+<web-app>
+ <display-name>JspApp_9_globalErrorPage</display-name>
+  <error-page>
+    <exception-type>java.lang.NullPointerException</exception-type>
+    <location>/error1.jsp</location>
+  </error-page>
+  <error-page>
+    <exception-type>java.lang.NumberFormatException</exception-type>
+    <location>/error2.jsp</location>
+  </error-page>
+</web-app>

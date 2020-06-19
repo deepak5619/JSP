@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <display-name>JspApp_6_HtmlToJspToDb</display-name>
+  <welcome-file-list>
+    <welcome-file>register.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>abc</servlet-name>
+    <jsp-file>/WEB-INF/pages/db_operation.jsp</jsp-file>
+    <init-param>
+      <param-name>driver</param-name>
+      <param-value>oracle.jdbc.driver.OracleDriver</param-value>
+    </init-param>
+    <init-param>
+      <param-name>url</param-name>
+      <param-value>jdbc:oracle:thin:@localhost:1521:orcl</param-value>
+    </init-param>
+    <init-param>
+      <param-name>user</param-name>
+      <param-value>scott</param-value>
+    </init-param>
+    <init-param>
+      <param-name>pwd</param-name>
+      <param-value>tiger</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>abc</servlet-name>
+    <url-pattern>/dburl</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,1 @@
+<h1  style="color:red;text-align:Center">Welcome to Deepak News World</h1>

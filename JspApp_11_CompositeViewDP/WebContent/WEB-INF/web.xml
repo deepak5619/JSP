@@ -1,0 +1,7 @@
+<web-app>
+  <display-name>JspApp_11_CompositeViewDP</display-name>
+  <welcome-file-list>
+    <welcome-file>page1.jsp</welcome-file>
+    
+  </welcome-file-list>
+</web-app>
