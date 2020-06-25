@@ -1,0 +1,7 @@
+
+<web-app >
+  <display-name>JspApp_17_UsebeanTag_usecase</display-name>
+  <welcome-file-list>
+    <welcome-file>input.html</welcome-file>   
+  </welcome-file-list>
+</web-app>
